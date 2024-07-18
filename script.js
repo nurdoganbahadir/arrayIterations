@@ -41,3 +41,13 @@ let dizi = [];
 // const dizim = diziNum.reduce((x,y) => x*y,1);
 // console.log(dizim);
 // result.textContent = dizim;
+
+//! for of döngüsü dizinin içine girer ve dizinin elemanlarını döndürür
+// for (let dizi of diziStr) {
+//   console.log(dizi.trim().toLocaleUpperCase());
+// }
+
+//! for in döngüsü dizinin içine girer ve index numaralarını döndürür
+// for (let dizi in diziStr) {
+//   console.log(dizi);
+// }
