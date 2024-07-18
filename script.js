@@ -24,6 +24,16 @@ let dizi = [];
 // console.log(dizim);
 // result.textContent = dizim;
 
-//! .forEach dizinin içerisindeki indeksleri döner ve döndürür yeni dizi oluşturmaz
-const dizim = diziStr.forEach((x) => console.log(x.toLocaleUpperCase().trim()));
+//! .forEach() dizinin içerisindeki indeksleri döner ve döndürür yeni dizi oluşturmaz
+// const dizim = diziStr.forEach((x) => console.log(x.toLocaleUpperCase().trim()));
+
+//! .filter() belirli bir koşula göre döner eğer koşul sağlanmıyorsa boş döner
+// const dizim = diziNum.filter((x) => x>5);
+// console.log(dizim);
+// result.textContent = dizim;
+
+//! .map() dizinin her elemanını işleme tabi tutup yeni bir dizi döndürür
+// const dizim = diziStr.map((x) => x.trim().toLocaleUpperCase());
+// console.log(dizim);
+// result.textContent = dizim;
 
