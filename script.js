@@ -38,5 +38,6 @@ let dizi = [];
 // result.textContent = dizim;
 
 //! .reduce() dizinin her elemanı için fonksiyon döndürür ve belirtiğildi kadar çarpar.
-const dizim = diziNum.reduce((x,y) => x*y,1);
-console.log(dizim);
+// const dizim = diziNum.reduce((x,y) => x*y,1);
+// console.log(dizim);
+// result.textContent = dizim;
